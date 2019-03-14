@@ -1,0 +1,160 @@
+/* Import fonts to closely resemble the original Google fonts used on their landing page. */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+/* Universal settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Use same font throughout page */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header settings */
+header {
+  width: 100%;
+}
+
+/* Nav settings */
+nav {
+  height: 25px;
+  border-bottom: 1px solid lightblue;
+}
+
+/* H4 settings */
+h4 {
+  float: left;
+  padding: 3px;
+}
+
+/* Left nav settings */
+#left {
+  float: left;
+  padding: 1px 0 3px 20px;
+}
+
+/* Right nav settings */
+#right {
+  float: right;
+  padding: 1px 20px 3px 0;
+}
+
+/* UL LI settings */
+ul li {
+  display: inline;
+  list-style: none;
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+/* Image settings */
+img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 100.9px;
+  padding: 60px 0 30px 0;
+}
+
+/* Input section settings */
+#input {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+/* Input field settings */
+input {
+  width: 550px;
+  height: 30px;
+}
+
+/* Input text settings */
+#input #Adv {
+  position: absolute;
+  top: 14%;
+  right: -18%;
+  font-size: 10px;
+  color: blue;
+}
+
+/* Input text settings */
+#input #Lan {
+  position: absolute;
+  top: 44%;
+  right: -16%;
+  font-size: 10px;
+  color: blue;
+}
+
+/* Buttons section settings */
+#buttons {
+  position: absolute;
+  top: 44%;
+  left: 42.5%;
+}
+
+/* Button settings */
+.but {
+  padding: 3px;
+}
+
+/* H5 settings */
+h5 {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  font-weight: normal;
+}
+
+/* More H5 settings */
+h5 #new {
+  color: red;
+}
+
+/* More H5 settings */
+h5 #maps {
+  color: blue;
+}
+
+/* Advertising text settings */
+#advertising {
+  position: absolute;
+  top: 63%;
+  left: 30%;
+}
+
+/* Advertising LI settings */
+#advertising li {
+  text-decoration: none;
+}
+
+/* More advertising settings */
+#purple1 {
+  color: #663366;
+}
+
+/* More advertising settings */
+#purple2 {
+  padding-left: 10px;
+  color: #663366;
+  font-weight: bold;
+}
+
+/* Footer settings */
+footer {
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  font-size: 10px;
+}
+
+/* More footer settings */
+footer span {
+  color: blue;
+}
